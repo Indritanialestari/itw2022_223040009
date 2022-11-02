@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <title>form + table</title>
+  </head>
+  <body>
+    <table widht="80%" border="1" style="border-collapse: collapse">
+        <tr>
+            <th bgcolor="grey" colspan="10" align="center">Input Data Mahasiswa</th>
+          </tr>
+          <form>
+            <tr>
+              <td>Unsername</td>
+              <td align="right">:</td>
+              <td align="left">
+                <input type="text" name="unsername" />
+              </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td align="right">:</td>
+                <td align="left">
+                    <input type="text" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td>Fullname</td>
+                <td align="right">:</td>
+                <td align="left">
+                    <input type="text" name="Fullname">
+                </td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td align="right">:</td>
+                <td align="left">
+                    <input type="text" name="E-mail">
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td align="right">:</td>
+                <td align="left">
+                    <select>
+                        <option name="Agama" selected>-- Pilih Agama--</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                        <option value="konghucu">konghucu</option>
+                        <option value="Kristen">Kristen</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td align="right">:</td>
+                <td align="left">
+                    Laki-laki:
+                    <input type="checkbox" name="vehicle" value="laki-lai">
+                    Prempuan:
+                    <input type="checkbox" name="vehicle" value="perempuan">
+                </td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td align="right">:</td>
+                <td align="left">
+                    Musik:
+                    <input type="checkbox" name="vehicle" value="musik">
+                    Olahraga:
+                    <input type="checkbox" name="vehicle" value="Olahraga">
+                    Gaming:
+                    <input type="checkbox" name="vehicle" value="gaming">
+                    Lainnya:
+                    <input type="checkbox" name="vehicle" value="lainnya">
+                </td>
+            </tr>
+            <tr>
+                <td>Profil Singkat</td>
+                <td align="right">:</td>
+                <td align="left">
+                    <textarea rows="9" cols="120" name="komentar"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="100">
+                    <input type="submit" name="submit" value="submit" /><br>
+                </td>
+            </tr>
+    </table>
+    </form>
+  </body>
+</html>
