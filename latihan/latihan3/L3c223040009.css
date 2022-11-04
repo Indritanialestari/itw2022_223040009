@@ -1,0 +1,39 @@
+body {
+  background-color: aqua;
+  font-family: Georgia;
+  text-align: justify;
+}
+
+.paragraf1 {
+  text-align: center;
+  color: orange;
+}
+
+.paragraf2 {
+  text-align: right;
+}
+
+h4 {
+  font-style: oblique;
+  text-align: right;
+}
+
+h1 {
+  font-size: 60px;
+  color: darkblue;
+  font-family: Comic Sans MS;
+}
+
+.text1 {
+  color: white;
+  font-variant: small-caps;
+}
+
+.text1:hover {
+  color: red;
+}
+
+.text2:hover {
+  color: white;
+  background-color: darkblue;
+}
