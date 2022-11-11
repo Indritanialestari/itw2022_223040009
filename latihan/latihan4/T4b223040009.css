@@ -1,0 +1,123 @@
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* style */
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: paleturquoise;
+  color: black;
+  background-image: url(image/img\ 2.jpg);
+  font-family: "serif";
+}
+
+.container {
+  width: 770px;
+  margin: auto;
+  background-color: white;
+}
+
+.header .judul {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: lightgreen;
+  color: blue;
+}
+
+.hero {
+  height: 433px;
+  width: 770px;
+  background-image: url(image/gi.jpg);
+  background-clip: cover;
+  border-bottom: 5px solid burlywood;
+  border-top: 5px solid burlywood;
+}
+
+.genshin {
+  background-image: url(image/gi2.jpg);
+  height: 136px;
+  width: 260px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.content .penulis {
+  color: black;
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.sumber a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
